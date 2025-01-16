@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-# SmartEdu
-=======
 
 # SmartEdu  
 
@@ -136,6 +133,5 @@ SmartEdu é uma plataforma completa e integrada para gerenciamento de atividades
 ## Licença  
 Este projeto está licenciado sob a [Licença MIT](LICENSE).  
 
-developers: Erick1 and Gustavo
+developers: Erick and Gustavo
 ---
->>>>>>> Stashed changes
