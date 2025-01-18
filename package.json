@@ -1,0 +1,15 @@
+{
+  "name": "smartedu",
+  "version": "1.0.0",
+  "description": "SmartEdu é uma plataforma completa e integrada para gerenciamento de atividades, eventos e interações em ambientes educacionais, empresariais ou outros nichos personalizáveis. A aplicação foi projetada para facilitar a organização, o engajamento e a comunicação entre usuários, oferecendo funcionalidades robustas para diferentes necessidades.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "npm": "^11.0.0"
+  }
+}
