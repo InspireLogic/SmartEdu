@@ -1,0 +1,15 @@
+services:
+  dbSmartEdu:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: usersmart
+      POSTGRES_PASSWORD: userteste
+      POSTGRES_DB: smartedu
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata:
