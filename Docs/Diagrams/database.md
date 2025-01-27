@@ -105,7 +105,7 @@ erDiagram
         varchar titleTopicForum
         int idUserAuthor
         date dataCreatedForum
-        enum statusTopicForum
+        varchar statusTopicForum
     }
     TbForumMessages {
         int idForumMessage
