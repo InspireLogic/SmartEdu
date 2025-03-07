@@ -1,0 +1,164 @@
+<template>
+  <div class="flex h-screen bg-gray-500">
+    <ClientSidebar />
+
+    <div class="flex-1 flex flex-col overflow-hidden">
+      <Header />
+
+      <main class="flex-1 overflow-x-hidden overflow-y-auto bg-zinc-300 p-5">
+        <div data-aos="fade-up" class="min-h-screen rounded-xl">
+          <!-- Cabeçalho -->
+          <header class="text-gray-800 pb-6">
+            <div class="container mx-auto px-4">
+              <h1 class="text-3xl font-bold">Fórum de Perguntas</h1>
+            </div>
+          </header>
+
+          <!-- Conteúdo Principal -->
+          <main class="container mx-auto flex gap-8 px-4">
+            <!-- Lista de Perguntas -->
+            <div class="w-3/4">
+              <!-- Pergunta 1 -->
+              <div
+                class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md hover:scale-102 duration-300 ease-linear transition-shadow-2xl mb-6">
+                <div class="flex items-center mb-4">
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">15</span>
+                    <span class="text-sm text-gray-500">votos</span>
+                  </div>
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">5</span>
+                    <span class="text-sm text-gray-500">respostas</span>
+                  </div>
+                  <div class="text-gray-600">
+                    <span class="block text-center text-lg font-semibold">120</span>
+                    <span class="text-sm text-gray-500">visualizações</span>
+                  </div>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2 hover:text-blue-600 transition-colors">
+                  Como usar Vue.js com Tailwind CSS?
+                </h2>
+                <p class="text-gray-500 mb-4">Por <span class="text-gray-700 font-medium">João Silva</span></p>
+                <div class="flex space-x-2">
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">vuejs</span>
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">tailwindcss</span>
+                </div>
+              </div>
+
+              <!-- Pergunta 2 -->
+              <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow mb-6">
+                <div class="flex items-center mb-4">
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">10</span>
+                    <span class="text-sm text-gray-500">votos</span>
+                  </div>
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">3</span>
+                    <span class="text-sm text-gray-500">respostas</span>
+                  </div>
+                  <div class="text-gray-600">
+                    <span class="block text-center text-lg font-semibold">90</span>
+                    <span class="text-sm text-gray-500">visualizações</span>
+                  </div>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2 hover:text-blue-600 transition-colors">
+                  Qual a melhor forma de aprender JavaScript?
+                </h2>
+                <p class="text-gray-500 mb-4">Por <span class="text-gray-700 font-medium">Maria Oliveira</span></p>
+                <div class="flex space-x-2">
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">javascript</span>
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">learning</span>
+                </div>
+              </div>
+              <!-- Pergunta 1 -->
+              <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow mb-6">
+                <div class="flex items-center mb-4">
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">15</span>
+                    <span class="text-sm text-gray-500">votos</span>
+                  </div>
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">5</span>
+                    <span class="text-sm text-gray-500">respostas</span>
+                  </div>
+                  <div class="text-gray-600">
+                    <span class="block text-center text-lg font-semibold">120</span>
+                    <span class="text-sm text-gray-500">visualizações</span>
+                  </div>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2 hover:text-blue-600 transition-colors">
+                  Como usar Vue.js com Tailwind CSS?
+                </h2>
+                <p class="text-gray-500 mb-4">Por <span class="text-gray-700 font-medium">João Silva</span></p>
+                <div class="flex space-x-2">
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">vuejs</span>
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">tailwindcss</span>
+                </div>
+              </div>
+
+              <!-- Pergunta 2 -->
+              <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow mb-6">
+                <div class="flex items-center mb-4">
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">10</span>
+                    <span class="text-sm text-gray-500">votos</span>
+                  </div>
+                  <div class="text-gray-600 mr-6">
+                    <span class="block text-center text-lg font-semibold">3</span>
+                    <span class="text-sm text-gray-500">respostas</span>
+                  </div>
+                  <div class="text-gray-600">
+                    <span class="block text-center text-lg font-semibold">90</span>
+                    <span class="text-sm text-gray-500">visualizações</span>
+                  </div>
+                </div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2 hover:text-blue-600 transition-colors">
+                  Qual a melhor forma de aprender JavaScript?
+                </h2>
+                <p class="text-gray-500 mb-4">Por <span class="text-gray-700 font-medium">Maria Oliveira</span></p>
+                <div class="flex space-x-2">
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">javascript</span>
+                  <span class="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full">learning</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Barra Lateral -->
+            <div class="w-1/4">
+              <div class="bg-white p-6 rounded-xl shadow-sm">
+                <h3 class="text-lg font-semibold text-gray-800 mb-4">Estatísticas</h3>
+                <ul class="space-y-3">
+                  <li class="text-gray-600">
+                    <span class="font-medium">Perguntas:</span> 123
+                  </li>
+                  <li class="text-gray-600">
+                    <span class="font-medium">Respostas:</span> 456
+                  </li>
+                  <li class="text-gray-600">
+                    <span class="font-medium">Usuários:</span> 789
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </main>
+        </div>
+      </main>
+    </div>
+  </div>
+
+</template>
+
+<script>
+import Header from '../../components/Header.vue';
+import ClientSidebar from './ClientSidebar.vue';
+
+export default {
+  // name: "Question",
+  components: {
+    ClientSidebar,
+    Header
+  },
+
+};
+</script>
