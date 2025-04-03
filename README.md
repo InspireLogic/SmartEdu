@@ -193,5 +193,5 @@ SmartEdu é uma plataforma completa e integrada para a criação, gestão e dist
 ## Licença  
 Este projeto está licenciado sob a [Licença MIT](LICENSE).  
 
-developers: Erick and Gustavo
+Equipe InspireLogic
 ---

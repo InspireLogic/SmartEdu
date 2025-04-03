@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.dev.yml
+**/.dockerignore
+**/Dockerfile*
+**/docker-compose*.yml
+**/.env*
+docker-volumes/
+docker-data/
+docker-logs/
+
+# Vue.js
+dist/
+.npm/
+.nuxt/
+.output/
+
+# Configs locais e sensíveis
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.DS_Store
+
+
+logs/
+*.log
+*.log.*
+coverage/
