@@ -34,5 +34,4 @@ graph TD;
 ### Portas (Interface Adapters Layer)
 - **`user_port.js`** → Define contratos de comunicação para manipulação de usuários.
 - **`order_port.js`** → Interface para requisições relacionadas a pedidos.
-- **`payment_port.js`** → Define como a API lida com pagamentos e provedores externos.
-
+- **`payment_port.js`** → Define como a API lida com pagamentos e provedores exter
