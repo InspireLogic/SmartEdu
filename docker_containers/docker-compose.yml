@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  dev-back:
+    build: ./api
+    container_name: dev-back
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./api:/app
+      - /app/node_modules
+    environment:
+      - PORT=3001
+
+  dev-front:
+    build: ./web
+    container_name: dev-front
+    ports:
+      - "5173:5173"
+    depends_on:
+      - dev-back
+    volumes:
+      - ./web:/app
+      - /app/node_modules

@@ -11,10 +11,6 @@ pnpm-lock.yaml
 .dockerignore
 docker-compose.override.yml
 docker-compose.dev.yml
-**/.dockerignore
-**/Dockerfile*
-**/docker-compose*.yml
-**/.env*
 docker-volumes/
 docker-data/
 docker-logs/

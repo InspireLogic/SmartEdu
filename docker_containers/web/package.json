@@ -1,0 +1,17 @@
+{
+    "name": "dev-front",
+    "version": "1.0.0",
+    "description": "Frontend Vue.js",
+    "main": "index.js",
+    "scripts": {
+      "dev": "vite"
+    },
+    "dependencies": {
+      "vue": "^3.2.47",
+      "bulma": "^0.9.4"
+    },
+    "devDependencies": {
+      "vite": "^4.3.9"
+    }
+  }
+  
